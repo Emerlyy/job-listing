@@ -22,4 +22,6 @@ export const selectVisiblePositions = (state, filters = []) => {
 
 export const { addPositions } = positionSlice.actions;
 
-export default positionSlice.reducer;
+const positionReducer = positionSlice.reducer;
+
+export default positionReducer;

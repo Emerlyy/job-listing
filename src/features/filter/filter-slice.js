@@ -19,4 +19,6 @@ export const {
   clearFilters,
 } = filterSlice.actions;
 
-export default filterSlice.reducer;
+const filterReducer = filterSlice.reducer;
+
+export default filterReducer;

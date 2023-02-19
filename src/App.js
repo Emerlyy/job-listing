@@ -9,13 +9,11 @@ import data from './mock/data.json';
 import { addPositions } from 'features/positions/position-slice';
 
 function App() {
-
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(addPositions(data));
   });
-
 
   return (
     <>
