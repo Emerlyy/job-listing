@@ -154,10 +154,8 @@ body {
   border-bottom: 1px solid var(--grey-800);
 }
 .job-position-avatar {
-  top: -50px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 .job-position-body {
   display: flex;
